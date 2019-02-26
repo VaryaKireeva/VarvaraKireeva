@@ -1,10 +1,16 @@
+import java.util.Scanner;
+
 public class zadacha6 {
     public static void main(String[] args) {
-        int x = 1;
-        int y = 2;
-        int z = 3;
-        int s = ((1+2+3)/3);
-        int d = (s/2);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите число ");
+        int x = sc.nextInt();
+        System.out.println("Введите число ");
+        int y = sc.nextInt();
+        System.out.println("Введите число ");
+        int z = sc.nextInt();
+        double s = ((x+y+z)/3);
+        double d = (s/2);
         System.out.println("Среднее арифметическое = " + s);
         System.out.println(d);
         if(d>3){
