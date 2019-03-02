@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Zadanie15 {
     public static void main(String[] args) {
-        int [] massiv = {11, 3, 14, 16, 7, 8, 12, 19};
+        int [] massiv = {11, 3, 14, 16, 7, 8, 12, 19, 24};
 
         boolean isSorted = false;
         int a;
